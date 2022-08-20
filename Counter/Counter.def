@@ -1,0 +1,8 @@
+; COUNTER.def : declares the module parameters for the DLL.
+
+LIBRARY	     "COUNTER"
+
+EXPORTS
+	HttpExtensionProc
+	GetExtensionVersion
+	TerminateExtension
