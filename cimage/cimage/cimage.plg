@@ -1,0 +1,55 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: cimage - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\WINDOWS\TEMP\RSP23A2.TMP" with contents
+[
+/nologo /MDd /W3 /GX /Z7 /Od /I "..\jpeg" /I "..\png" /I "..\zlib" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp".\Debug/cimage.pch" /YX /Fo".\Debug/" /Fd".\Debug/" /FD /c 
+"C:\wxz\cimage\cimage\cimage.cpp"
+"C:\wxz\cimage\cimage\cimageb.cpp"
+"C:\wxz\cimage\cimage\cmap.cpp"
+"C:\wxz\cimage\cimage\Dibutils.cpp"
+"C:\wxz\cimage\cimage\Gifdecod.cpp"
+"C:\wxz\cimage\cimage\Imabmp.cpp"
+"C:\wxz\cimage\cimage\Imagif.cpp"
+"C:\wxz\cimage\cimage\Imajpg.cpp"
+"C:\wxz\cimage\cimage\Imapng.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP23A2.TMP" 
+Creating command line "link.exe -lib /nologo /out:".\Debug\cimage.lib"  .\Debug\cimage.obj .\Debug\cimageb.obj .\Debug\cmap.obj .\Debug\Dibutils.obj .\Debug\Gifdecod.obj .\Debug\Imabmp.obj .\Debug\Imagif.obj .\Debug\Imajpg.obj .\Debug\Imapng.obj "
+<h3>Output Window</h3>
+Compiling...
+cimage.cpp
+cimageb.cpp
+cmap.cpp
+Dibutils.cpp
+C:\wxz\cimage\cimage\Dibutils.cpp(409) : warning C4390: ';' : empty controlled statement found; is this the intent?
+Gifdecod.cpp
+C:\wxz\cimage\cimage\gifdecod.h(41) : warning C4005: 'NULL' : macro redefinition
+        C:\Visual Studio\VC98\MFC\INCLUDE\afx.h(203) : see previous definition of 'NULL'
+C:\wxz\cimage\cimage\Gifdecod.cpp(80) : warning C4244: '=' : conversion from 'short' to 'unsigned char', possible loss of data
+C:\wxz\cimage\cimage\Gifdecod.cpp(106) : warning C4244: '=' : conversion from 'short' to 'unsigned char', possible loss of data
+C:\wxz\cimage\cimage\Gifdecod.cpp(239) : warning C4244: '=' : conversion from 'short' to 'unsigned char', possible loss of data
+C:\wxz\cimage\cimage\Gifdecod.cpp(271) : warning C4244: '=' : conversion from 'short' to 'unsigned char', possible loss of data
+C:\wxz\cimage\cimage\Gifdecod.cpp(290) : warning C4244: '=' : conversion from 'short' to 'unsigned char', possible loss of data
+C:\wxz\cimage\cimage\Gifdecod.cpp(293) : warning C4244: '=' : conversion from 'short' to 'unsigned char', possible loss of data
+Imabmp.cpp
+Imagif.cpp
+C:\wxz\cimage\cimage\gifdecod.h(41) : warning C4005: 'NULL' : macro redefinition
+        C:\Visual Studio\VC98\MFC\INCLUDE\afx.h(203) : see previous definition of 'NULL'
+C:\wxz\cimage\cimage\Imagif.cpp(110) : warning C4554: '<<' : check operator precedence for possible error; use parentheses to clarify precedence
+Imajpg.cpp
+Imapng.cpp
+Creating library...
+
+
+
+<h3>Results</h3>
+cimage.lib - 0 error(s), 10 warning(s)
+</pre>
+</body>
+</html>
